@@ -1,13 +1,13 @@
 # Matlab Insoles Data Analysis
 
 MATLAB GIT INSTRUCTIONS
-/*****************************/
+
 - https://it.mathworks.com/help/matlab/source-control.html : scroll to the GIT session
 - https://blogs.mathworks.com/community/2014/10/20/matlab-and-git/
 
-/*****************************/
 
 ABOUT THIS PROJECT
+
 /***** SHORT TESTS (i.e. 10_steps) *****/
 GOAL: compute gait temporal parameters starting from one straight acquisition
 
