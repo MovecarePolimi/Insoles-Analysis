@@ -16,3 +16,4 @@
 *.jpg -crlf -diff -merge
 *.png -crlf -diff -merge
 *.txt -crlf -diff -merge
+*.csv -crlf -diff -merge
