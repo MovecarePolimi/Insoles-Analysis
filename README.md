@@ -8,7 +8,7 @@ MATLAB GIT INSTRUCTIONS
 
 ABOUT THIS PROJECT
 
-/***** SHORT TESTS (i.e. 10_steps) *****/
+A) SHORT TESTS (i.e. 10_steps) 
 GOAL: compute gait temporal parameters starting from one straight acquisition
 
 1) Import new data with the script at 'script/start.m' or open an imported .mat file in 'source/mat_data/Lissone/10_steps/onlyImported/ '. 
@@ -20,7 +20,7 @@ GOAL: compute gait temporal parameters starting from one straight acquisition
 4) create data structure ('script/data_analysis/gaitParameter/createDataStructure.m') to perform statistical tests ('script/data_analysis/gaitParameter/statisticalTests.m')
 
 
-/***** LONG TESTS (i.e. 6MWT, TestCallFra) *****/
+B) LONG TESTS (i.e. 6MWT, TestCallFra) 
 GOAL: compute gait temporal parameters starting from a long gait acquisition which contains several changes of direction. Here the needs to obtain the straight paths from the overall acquisition and then consider each path as a short test.
 
 1) Import new data in one of the following ways:
