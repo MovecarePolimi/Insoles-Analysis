@@ -22,7 +22,7 @@ figure;
 plot(Acc_filt,'k');
 title('select vertical line such that all negative peaks are below it');
 [x1,y1]=ginput(1);
-x1=round(x1); y1=round(y1);
+x1=round(x1); % y1=round(y1); 
 sign_det=Acc_filt-y1;
 for k=2:length(sign_det)
     sign2(k-1)=sign_det(k).*sign_det(k-1);
